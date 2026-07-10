@@ -1,0 +1,44 @@
+a:link,a:visited{
+    color:rgb(225,255,255)
+    text-decoration: none;
+}
+a:active,a:hover {
+    color:rgb(225,255,255)
+    text-decoration:uunderline;
+}
+header{
+    padding: 20px;
+    background-color: chocolate;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title {
+    padding: 8px;
+    font-size: 24px;
+    border-left-style: solid;
+    border-left-width: 5px;
+    margin:10px;
+    color:chocolate
+}
+.normal{
+    padding: 0px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+footer{
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: chocolate;
+    text-align: center;
+    color:#ffffff;
+    font-family: KhmerOS_SRFont;
+    font-size: 18px;
+    clear: left;
+}
