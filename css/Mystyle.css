@@ -1,0 +1,135 @@
+body{
+    max-width: 1200px;
+    margin:0;
+    padding: 0;
+}
+.center{
+    text-align: center;
+}
+header{
+   background-color:greenyellow;
+   padding:20px;
+   padding-bottom: 20px;
+   position: sticky;
+   top: 0;  
+   display: block;
+    font-size: 28px;
+}
+a.hl:link,a.hl:visited{
+    width: 100px;
+    background-color: greenyellow;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+a.hl:hover,a.hl:active{
+    color:#FFFFFF;
+    background-color:#98bf21;
+    width:100px;
+     padding-left: 15px;
+    padding-right: 15px; 
+    padding-top:15px;
+    padding-bottom: 15px;
+    text-decoration:none; 
+  
+}
+a.vl:link,a.vl:visited{
+    display:block;
+    width: 200px;
+    font-weight: bold;
+    color:aliceblue;
+    background-color: #999999;
+    text-align: left;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+ a:hover.vl,a:active.vl
+{
+    background-color: #3c3c3c;
+    text-decoration: underline;
+} 
+a:visited,a:link{
+    text-decoration: none;
+}
+div.NewsFrame{
+    margin:5px;
+    padding: 5px;
+    width: 375px;
+    float: left;
+    text-align: center;
+    border: 1px solid #cccccc;
+    min-height: 400px;
+}
+div.NewsFrame img{
+    margin: 5px;
+    width: 365px;
+    border:1px solid #ffffffff;
+
+}
+
+div.NewsFrame img {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+div.NewsFrame a:hover img {
+    opacity: 0.8;
+    transform: scale(1.03); /* optional: slight zoom for a nicer "active" feel */
+}
+div.NewsFrame div.Description{
+    text-align: justify;
+    font-weight: normal;
+    width: auto;
+    margin: 5px;
+} 
+footer{
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: greenyellow;
+    color: #ffffff;
+    text-align: center;
+    font-family: khmerOs_SRFont;
+    font-size: 18px;
+    clear: left;
+}
+.NewsFrame {
+    width: 375px;
+    margin: 5px;
+    padding: 5px;
+    float: left;      /* Display blocks side by side */
+    border: 1px solid #ccc;
+    text-align: center;
+    min-height: 400px;
+}
+
+.NewsFrame img {
+    width: 365px;
+    border: 1px solid #fff;
+}
+
+.NewsFrame h3 {
+    text-align: left;
+}
+
+.NewsFrame p {
+    text-align: left;
+}
+div.CollaborationFrame{
+  position: static;
+  margin: 5px;
+  padding: 5px;  
+  height: auto;
+  width: 275px;
+  float: left;
+  text-align: center;
+  border: 1px solid #cccccc;
+  min-height: 280px;
+}
+div.CollaborationFrame img{
+    margin: 5px;
+    width: 265px;
+    border: 1px solid #ffffff;
+}
+div.CollaborationFrame a:hover img {
+    opacity: 0.6;
+}
